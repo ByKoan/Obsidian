@@ -1,2 +1,2 @@
 # Obsidian of Koan
-Here i upload my notes from learning to dev, project and some random things...
+This is my personal repository of my notes in the Obsidian program, here I personally upload my notes about the learning I am doing about certain things or projects
