@@ -1,2 +1,2 @@
-# Obsidian
+# Obsidian of Koan
 Here i upload my notes from learning to dev, project and some random things...
