@@ -1,15 +1,25 @@
-Si en el data modeler indicamos que el campo no era obligatorio pueden existir valores nulos si no le asignamos ningún tipo de valor 
+Campos que no tienen absolutamente ningún dato en la tabla, nosotros indicamos al crear una tabla si contendrá valores obligatoriamente (NOT NULL) o si ese campo puede estar vacío (NULL)
 
-Tenemos 2 operadores para datos NULL:
-- IS NULL (Es nulo):
-```sql
-SELECT CustomerName, ContactName, Address  
-FROM Customers  
-WHERE Address IS NULL;
+```SQL
+CREATE TABLE nombreTabla (
+campo1 varchar(20) not null,
+campo2 number
+...
+);
 ```
-- IS NOT NULL (No es nulo):
-```sql
-SELECT CustomerName, ContactName, Address  
-FROM Customers  
-WHERE Address IS NOT NULL;
+
+### Consultas NULL:
+
+Para consultar valores `NULL` no podemos usar los operadores comunes si no que tenemos que usar la palabra clave `IS NULL`
+
+```SQL
+SELECT * FROM nombreTabla WHERE campo IS NULL;
+```
+
+### Consultas NOT NULL:
+
+Para consultar valores que no sean `NULL`, usaremos la palabra clave `IS NOT NULL`
+
+```SQL
+SELECT * FROM nombreTabla WHERE campo IS NOT NULL;
 ```

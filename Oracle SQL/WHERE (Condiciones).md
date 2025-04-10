@@ -1,6 +1,5 @@
-Lo usaremos para indicar siempre condiciones
+La palabra clave `WHERE` nos sirve para poner indicaciones a las consultas que queramos hacer, ejemplo:
 
 ```sql
-SELECT * FROM Customers  
-WHERE Country='Mexico';
+SELECT * FROM nombreTabla WHERE condicion = 'valor';
 ```

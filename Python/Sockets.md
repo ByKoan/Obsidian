@@ -1,7 +1,4 @@
 Pagina ref - https://realpython.com/python-sockets/
-### HACIENDO ESTA PAGINA
-
-
 ### Principales funciones de sockets en Python:
 
 - `socket()`
