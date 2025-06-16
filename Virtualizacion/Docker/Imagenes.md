@@ -1,1 +1,0 @@
-Las imágenes "son las recetas" que interpreta **docker** a la hora de crear un contenedor
